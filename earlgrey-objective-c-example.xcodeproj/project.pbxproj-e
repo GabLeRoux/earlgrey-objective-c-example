@@ -10,7 +10,6 @@
 		70719423CFBC4157CF5FCA20 /* EarlGrey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 210EC3EB5EFFDE461E8EE766 /* EarlGrey.framework */; };
 		9F8160D8FD37B1F6B91A3F17 /* Pods_earlgrey_objective_c_example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED0DE520D5B049FC27425652 /* Pods_earlgrey_objective_c_example.framework */; };
 		A5D638ADC2568BF7E3856EF9 /* Pods_earlgrey_objective_c_exampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E433162EB409BF97BF2BAE /* Pods_earlgrey_objective_c_exampleTests.framework */; };
-		D156C9111EB7B83C000C3715 /* SampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D156C9101EB7B83C000C3715 /* SampleUITests.m */; };
 		D164075E1EB7B09900729206 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D164075D1EB7B09900729206 /* main.m */; };
 		D16407611EB7B09900729206 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D16407601EB7B09900729206 /* AppDelegate.m */; };
 		D16407641EB7B09900729206 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16407631EB7B09900729206 /* FirstViewController.m */; };
@@ -60,7 +59,6 @@
 		5FA097BA47392752A38AA0E5 /* Pods-earlgrey-objective-c-exampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-earlgrey-objective-c-exampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-earlgrey-objective-c-exampleTests/Pods-earlgrey-objective-c-exampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		C1EF3E2E01C77E8CA0AA70BF /* Pods-earlgrey-objective-c-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-earlgrey-objective-c-example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-earlgrey-objective-c-example/Pods-earlgrey-objective-c-example.debug.xcconfig"; sourceTree = "<group>"; };
 		C6E433162EB409BF97BF2BAE /* Pods_earlgrey_objective_c_exampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_earlgrey_objective_c_exampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D156C9101EB7B83C000C3715 /* SampleUITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SampleUITests.m; path = "earlgrey-objective-c-exampleUITests/SampleUITests.m"; sourceTree = "<group>"; };
 		D16407591EB7B09900729206 /* earlgrey-objective-c-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "earlgrey-objective-c-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D164075D1EB7B09900729206 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D164075F1EB7B09900729206 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -130,20 +128,11 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		D156C9121EB7B83F000C3715 /* earlgrey-objective-c-exampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D156C9101EB7B83C000C3715 /* SampleUITests.m */,
-			);
-			name = "earlgrey-objective-c-exampleUITests";
-			sourceTree = "<group>";
-		};
 		D16407501EB7B09900729206 = {
 			isa = PBXGroup;
 			children = (
 				D164075B1EB7B09900729206 /* earlgrey-objective-c-example */,
 				D16407781EB7B09900729206 /* earlgrey-objective-c-exampleTests */,
-				D156C9121EB7B83F000C3715 /* earlgrey-objective-c-exampleUITests */,
 				D164075A1EB7B09900729206 /* Products */,
 				CC5855A9ED4F58539A0DC10D /* Pods */,
 				5DFB67E4795D7DB53C27F97E /* Frameworks */,
@@ -451,7 +440,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D156C9111EB7B83C000C3715 /* SampleUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,7 +574,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 37WQ754A3A;
-				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "earlgrey-objective-c-example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -601,7 +588,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 37WQ754A3A;
-				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "earlgrey-objective-c-example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

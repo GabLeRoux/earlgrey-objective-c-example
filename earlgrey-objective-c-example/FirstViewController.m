@@ -1,11 +1,3 @@
-//
-//  FirstViewController.m
-//  earlgrey-objective-c-example
-//
-//  Created by Gabriel Le Breton on 2017-05-01.
-//  Copyright © 2017 gableroux. All rights reserved.
-//
-
 #import "FirstViewController.h"
 
 @interface FirstViewController ()
@@ -25,5 +17,32 @@
     // Dispose of any resources that can be recreated.
 }
 
-
+-(IBAction)hitMeButton:(id)sender
+{
+    UIAlertController * alert = [UIAlertController
+                                 alertControllerWithTitle:@"Title"
+                                 message:@"Message"
+                                 preferredStyle:UIAlertControllerStyleAlert];
+    
+    
+    
+    UIAlertAction* yesButton = [UIAlertAction
+                                actionWithTitle:@"Yes, please"
+                                style:UIAlertActionStyleDefault
+                                handler:^(UIAlertAction * action) {
+                                    //Handle your yes please button action here
+                                }];
+    
+    UIAlertAction* noButton = [UIAlertAction
+                               actionWithTitle:@"No, thanks"
+                               style:UIAlertActionStyleDefault
+                               handler:^(UIAlertAction * action) {
+                                   //Handle no, thanks button
+                               }];
+    
+    [alert addAction:yesButton];
+    [alert addAction:noButton];
+    
+    [self presentViewController:alert animated:YES completion:nil];
+}
 @end

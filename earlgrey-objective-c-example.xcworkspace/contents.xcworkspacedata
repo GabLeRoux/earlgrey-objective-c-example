@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:earlgrey-objective-c-exampleUITests/SampleUITests.m">
+   </FileRef>
+   <FileRef
       location = "group:earlgrey-objective-c-example.xcodeproj">
    </FileRef>
    <FileRef
