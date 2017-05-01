@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70719423CFBC4157CF5FCA20 /* EarlGrey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 210EC3EB5EFFDE461E8EE766 /* EarlGrey.framework */; };
+		9F8160D8FD37B1F6B91A3F17 /* Pods_earlgrey_objective_c_example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED0DE520D5B049FC27425652 /* Pods_earlgrey_objective_c_example.framework */; };
+		A5D638ADC2568BF7E3856EF9 /* Pods_earlgrey_objective_c_exampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E433162EB409BF97BF2BAE /* Pods_earlgrey_objective_c_exampleTests.framework */; };
 		D164075E1EB7B09900729206 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D164075D1EB7B09900729206 /* main.m */; };
 		D16407611EB7B09900729206 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D16407601EB7B09900729206 /* AppDelegate.m */; };
 		D16407641EB7B09900729206 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16407631EB7B09900729206 /* FirstViewController.m */; };
@@ -16,6 +19,8 @@
 		D164076F1EB7B09900729206 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D164076D1EB7B09900729206 /* LaunchScreen.storyboard */; };
 		D164077A1EB7B09900729206 /* earlgrey_objective_c_exampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D16407791EB7B09900729206 /* earlgrey_objective_c_exampleTests.m */; };
 		D16407851EB7B09900729206 /* earlgrey_objective_c_exampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D16407841EB7B09900729206 /* earlgrey_objective_c_exampleUITests.m */; };
+		D96CB510121DBD66EE0505D3 /* EarlGrey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 210EC3EB5EFFDE461E8EE766 /* EarlGrey.framework */; };
+		E8FF3215FB24F848431E0438 /* EarlGrey.framework in EarlGrey Copy Files */ = {isa = PBXBuildFile; fileRef = 210EC3EB5EFFDE461E8EE766 /* EarlGrey.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +40,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E5085DCB679C97B9E16EA4F8 /* EarlGrey Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(TEST_HOST)/../";
+			dstSubfolderSpec = 0;
+			files = (
+				E8FF3215FB24F848431E0438 /* EarlGrey.framework in EarlGrey Copy Files */,
+			);
+			name = "EarlGrey Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		210EC3EB5EFFDE461E8EE766 /* EarlGrey.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EarlGrey.framework; path = "${SRCROOT}/Pods/EarlGrey/EarlGrey/EarlGrey.framework"; sourceTree = SRCROOT; };
+		21D47403E9537C38C883381B /* Pods-earlgrey-objective-c-exampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-earlgrey-objective-c-exampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-earlgrey-objective-c-exampleTests/Pods-earlgrey-objective-c-exampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5FA097BA47392752A38AA0E5 /* Pods-earlgrey-objective-c-exampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-earlgrey-objective-c-exampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-earlgrey-objective-c-exampleTests/Pods-earlgrey-objective-c-exampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		C1EF3E2E01C77E8CA0AA70BF /* Pods-earlgrey-objective-c-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-earlgrey-objective-c-example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-earlgrey-objective-c-example/Pods-earlgrey-objective-c-example.debug.xcconfig"; sourceTree = "<group>"; };
+		C6E433162EB409BF97BF2BAE /* Pods_earlgrey_objective_c_exampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_earlgrey_objective_c_exampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D16407591EB7B09900729206 /* earlgrey-objective-c-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "earlgrey-objective-c-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D164075D1EB7B09900729206 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D164075F1EB7B09900729206 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +78,8 @@
 		D16407801EB7B09900729206 /* earlgrey-objective-c-exampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "earlgrey-objective-c-exampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D16407841EB7B09900729206 /* earlgrey_objective_c_exampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = earlgrey_objective_c_exampleUITests.m; sourceTree = "<group>"; };
 		D16407861EB7B09900729206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0AF2E4DD4AED27DE0A9C59A /* Pods-earlgrey-objective-c-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-earlgrey-objective-c-example.release.xcconfig"; path = "Pods/Target Support Files/Pods-earlgrey-objective-c-example/Pods-earlgrey-objective-c-example.release.xcconfig"; sourceTree = "<group>"; };
+		ED0DE520D5B049FC27425652 /* Pods_earlgrey_objective_c_example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_earlgrey_objective_c_example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +87,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70719423CFBC4157CF5FCA20 /* EarlGrey.framework in Frameworks */,
+				9F8160D8FD37B1F6B91A3F17 /* Pods_earlgrey_objective_c_example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +96,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D96CB510121DBD66EE0505D3 /* EarlGrey.framework in Frameworks */,
+				A5D638ADC2568BF7E3856EF9 /* Pods_earlgrey_objective_c_exampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +111,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5DFB67E4795D7DB53C27F97E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED0DE520D5B049FC27425652 /* Pods_earlgrey_objective_c_example.framework */,
+				C6E433162EB409BF97BF2BAE /* Pods_earlgrey_objective_c_exampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC5855A9ED4F58539A0DC10D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1EF3E2E01C77E8CA0AA70BF /* Pods-earlgrey-objective-c-example.debug.xcconfig */,
+				E0AF2E4DD4AED27DE0A9C59A /* Pods-earlgrey-objective-c-example.release.xcconfig */,
+				21D47403E9537C38C883381B /* Pods-earlgrey-objective-c-exampleTests.debug.xcconfig */,
+				5FA097BA47392752A38AA0E5 /* Pods-earlgrey-objective-c-exampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D16407501EB7B09900729206 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +138,8 @@
 				D16407781EB7B09900729206 /* earlgrey-objective-c-exampleTests */,
 				D16407831EB7B09900729206 /* earlgrey-objective-c-exampleUITests */,
 				D164075A1EB7B09900729206 /* Products */,
+				CC5855A9ED4F58539A0DC10D /* Pods */,
+				5DFB67E4795D7DB53C27F97E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +149,7 @@
 				D16407591EB7B09900729206 /* earlgrey-objective-c-example.app */,
 				D16407751EB7B09900729206 /* earlgrey-objective-c-exampleTests.xctest */,
 				D16407801EB7B09900729206 /* earlgrey-objective-c-exampleUITests.xctest */,
+				210EC3EB5EFFDE461E8EE766 /* EarlGrey.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D16407891EB7B09900729206 /* Build configuration list for PBXNativeTarget "earlgrey-objective-c-example" */;
 			buildPhases = (
+				D996543D3ADF2A6FD110B30B /* [CP] Check Pods Manifest.lock */,
 				D16407551EB7B09900729206 /* Sources */,
 				D16407561EB7B09900729206 /* Frameworks */,
 				D16407571EB7B09900729206 /* Resources */,
+				E3AF448FD22A6B3E77B8EDFB /* [CP] Embed Pods Frameworks */,
+				73E2C2B67BF5E263EAB9C841 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,9 +225,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D164078C1EB7B09900729206 /* Build configuration list for PBXNativeTarget "earlgrey-objective-c-exampleTests" */;
 			buildPhases = (
+				71F16600C34C6F3B035C382B /* [CP] Check Pods Manifest.lock */,
 				D16407711EB7B09900729206 /* Sources */,
 				D16407721EB7B09900729206 /* Frameworks */,
 				D16407731EB7B09900729206 /* Resources */,
+				E5085DCB679C97B9E16EA4F8 /* EarlGrey Copy Files */,
+				F30E74030DDA861F749EE3DD /* [CP] Embed Pods Frameworks */,
+				FA9F37C6B4043C46D9FEA423 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -275,6 +335,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71F16600C34C6F3B035C382B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		73E2C2B67BF5E263EAB9C841 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-earlgrey-objective-c-example/Pods-earlgrey-objective-c-example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D996543D3ADF2A6FD110B30B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E3AF448FD22A6B3E77B8EDFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-earlgrey-objective-c-example/Pods-earlgrey-objective-c-example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F30E74030DDA861F749EE3DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-earlgrey-objective-c-exampleTests/Pods-earlgrey-objective-c-exampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA9F37C6B4043C46D9FEA423 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-earlgrey-objective-c-exampleTests/Pods-earlgrey-objective-c-exampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D16407551EB7B09900729206 /* Sources */ = {
@@ -431,6 +584,7 @@
 		};
 		D164078A1EB7B09900729206 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1EF3E2E01C77E8CA0AA70BF /* Pods-earlgrey-objective-c-example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 37WQ754A3A;
@@ -443,6 +597,7 @@
 		};
 		D164078B1EB7B09900729206 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0AF2E4DD4AED27DE0A9C59A /* Pods-earlgrey-objective-c-example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 37WQ754A3A;
@@ -455,6 +610,7 @@
 		};
 		D164078D1EB7B09900729206 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21D47403E9537C38C883381B /* Pods-earlgrey-objective-c-exampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 37WQ754A3A;
@@ -468,6 +624,7 @@
 		};
 		D164078E1EB7B09900729206 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FA097BA47392752A38AA0E5 /* Pods-earlgrey-objective-c-exampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 37WQ754A3A;

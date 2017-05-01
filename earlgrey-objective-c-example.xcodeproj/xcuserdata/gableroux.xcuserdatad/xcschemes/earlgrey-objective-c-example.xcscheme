@@ -5,16 +5,68 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D16407581EB7B09900729206"
+               BuildableName = "earlgrey-objective-c-example.app"
+               BlueprintName = "earlgrey-objective-c-example"
+               ReferencedContainer = "container:earlgrey-objective-c-example.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "NO">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D16407741EB7B09900729206"
+               BuildableName = "earlgrey-objective-c-exampleTests.xctest"
+               BlueprintName = "earlgrey-objective-c-exampleTests"
+               ReferencedContainer = "container:earlgrey-objective-c-example.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D164077F1EB7B09900729206"
+               BuildableName = "earlgrey-objective-c-exampleUITests.xctest"
+               BlueprintName = "earlgrey-objective-c-exampleUITests"
+               ReferencedContainer = "container:earlgrey-objective-c-example.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D16407581EB7B09900729206"
+            BuildableName = "earlgrey-objective-c-example.app"
+            BlueprintName = "earlgrey-objective-c-example"
+            ReferencedContainer = "container:earlgrey-objective-c-example.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = 'DYLD_INSERT_LIBRARIES'
+            value = '@executable_path/EarlGrey.framework/EarlGrey'
+            isEnabled = 'YES'>
+         </EnvironmentVariable>
+      </EnvironmentVariables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -26,6 +78,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D16407581EB7B09900729206"
+            BuildableName = "earlgrey-objective-c-example.app"
+            BlueprintName = "earlgrey-objective-c-example"
+            ReferencedContainer = "container:earlgrey-objective-c-example.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +97,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D16407581EB7B09900729206"
+            BuildableName = "earlgrey-objective-c-example.app"
+            BlueprintName = "earlgrey-objective-c-example"
+            ReferencedContainer = "container:earlgrey-objective-c-example.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
